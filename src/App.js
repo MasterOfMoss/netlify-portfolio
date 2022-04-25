@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Testimonials from "./components/Testimonials";
+import "./index.css";
+import "./app.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Successfully Deployed <code>A React application</code> to Netlify with CircleCI</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="text-gray-400 bg-gray-900 body-font">
+      <Navbar></Navbar>
+      <About></About>
+      <Projects></Projects>
+      <Skills></Skills>
+      <Testimonials></Testimonials>
+      <Contact></Contact>
+    </main>
   );
 }
 
-export default App;
+
