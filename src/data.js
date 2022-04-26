@@ -10,7 +10,7 @@ export const projects = [
         title: "React ToDo List",
         subtitle: "MERN Stack",
         description: "ToDo App might be a good idea for one of the projects",
-        image: "./image1.gif",
+        image: "./image2.gif",
         link: "https://freecodecamp.org",
     },
 ];
