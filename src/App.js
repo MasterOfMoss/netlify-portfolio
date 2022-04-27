@@ -9,7 +9,7 @@ import "./index.css";
 
 export default function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="text-sky-200 body-font bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">
       <Navbar></Navbar>
       <About></About>
       <Projects></Projects>
