@@ -7,9 +7,9 @@ export default function Projects() {
         <section id="projects" className="text-gray-400 bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 body-font">
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                 <div className="flex flex-col w-full mb-28">
-                    <CodeIcon className="mx-auto inline-block w-10 mb-4" />
+                    <CodeIcon className="text-sky-400 mx-auto inline-block w-10 mb-4" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">Apps I've Built.</h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-sky-200">
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-white">
                         Check out all of my super cool projects, I'll come back to this section later to add in my future projects!
                         Make 'em good JB!
                     </p>
@@ -19,8 +19,8 @@ export default function Projects() {
                         <a href={project.link} key={project.image} className="sm:w-1/2 w-100 p-4">
                             <div className="flex relative">
                                 <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object center" src={project.image} />
-                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                    <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-indigo-900 opacity-0 hover:opacity-100">
+                                    <h2 className="tracking-widest text-sm title-font font-medium text-sky-400 mb-1">
                                         {project.subtitle}
                                     </h2>
                                     <h1 className="title-font text-lg font-medium text-white mb-3">

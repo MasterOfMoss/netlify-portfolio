@@ -76,26 +76,26 @@ export default function Contact() {
                         Like what you see? Drop me an email, I'd love to hear from you!
                     </p>
                     <div className="relative mb-4">
-                        <label htmlFor="name" className="leading-7 text-sm text-sky-200">
+                        <label htmlFor="name" className="leading-7 text-sm text-white">
                             Name    
                         </label>
-                        <input type="text" id="name" name="name" className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        <input type="text" id="name" name="name" className="w-full bg-indigo-900 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                         onChange={(e) => setName(e.target.value)}
                         ></input>      
                     </div>
                     <div className="relative mb-4">
-                        <label htmlFor="email" className="leading-7 text-sm text-sky-200">
+                        <label htmlFor="email" className="leading-7 text-sm text-white">
                             Email    
                         </label>
-                        <input type="email" id="email" name="email" className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                        <input type="email" id="email" name="email" className="w-full bg-indigo-900 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                         onChange={(e) => setEmail(e.target.value)}
                         ></input>
                     </div>
                     <div className="relative mb-4">
-                        <label htmlFor="message" className="leading-7 text-sm text-sky-200">
+                        <label htmlFor="message" className="leading-7 text-sm text-white">
                             Message    
                         </label>
-                        <textarea id="message" name="message" className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                        <textarea id="message" name="message" className="w-full bg-indigo-900 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                         onChange={(e) => setMessage(e.target.value)}
                         ></textarea>
                     </div>

@@ -6,16 +6,16 @@ export default function About() {
             <div className="container mx-auto flex px-10 md:flex-row flex-col items-center py-10">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
                     <h1 className="title-font sm-:text-4xl text-3xl mb-4 font-medium text-white">
-                        Hi, I'm Jesse.
-                        <br className="hidden lg:inline-block" />I love to build amazing apps.
+                        Hello there, I'm Jesse.
+                        <br className="hidden lg:inline-block" />I love write code and drink a lot of coffee.
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        I'm a junior developer with over two and a half years of professional working experience. 
-                        I love trying out new frameworks and technologies and am always looking to improve my skills as a developer.
+                        I'm a front-end developer (aspiring full-stack) with over two and a half years of professional working experience. 
+                        I love trying out new frameworks and technologies and the feeling of figuring out problems that aren't easy to solve.
 
                     </p>
                     <div className="flex justify-center">
-                        <a href="#contact" className="inline-flex text-white bg-sky-400 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+                        <a href="#contact" className="inline-flex text-white bg-sky-400 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-900 rounded text-lg">
                             Work With Me                            
                         </a>
                         <a href="#projects" className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
